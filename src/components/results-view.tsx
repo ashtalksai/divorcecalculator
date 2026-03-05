@@ -42,9 +42,9 @@ function ScenarioCard({
         </Badge>
       )}
       <div className="mb-4">
-        <h3 className="text-lg font-semibold" style={{ color: scenario.color }}>
+        <h2 className="text-lg font-semibold" style={{ color: scenario.color }}>
           {scenario.label}
-        </h3>
+        </h2>
         <div className="text-3xl font-bold mt-1">
           {formatCurrency(scenario.total)}
         </div>
@@ -164,9 +164,9 @@ function ResultsContent() {
 
       {/* State Info */}
       <div className="mt-12 bg-white rounded-xl p-6 border border-border/50">
-        <h3 className="font-semibold mb-2">
+        <h2 className="font-semibold mb-2">
           About divorce in {stateData.name}
-        </h3>
+        </h2>
         <p className="text-sm text-muted-foreground">{stateData.notes}</p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4">
           <div>

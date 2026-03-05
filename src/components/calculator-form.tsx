@@ -231,6 +231,7 @@ export default function CalculatorForm() {
                 <div className="flex items-center gap-3">
                   <Checkbox
                     checked={assets.includes(opt.value)}
+                    onClick={(e) => e.stopPropagation()}
                     onCheckedChange={() => toggleAsset(opt.value)}
                   />
                   <span className="text-lg">{opt.icon}</span>
