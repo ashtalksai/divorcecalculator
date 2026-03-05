@@ -1,0 +1,142 @@
+{
+  "california": {
+    "name": "California",
+    "slug": "california",
+    "filingFee": { "min": 435, "max": 450 },
+    "attorneyHourly": { "min": 300, "max": 600 },
+    "mediationPerSession": { "min": 200, "max": 500 },
+    "processServer": { "min": 40, "max": 150 },
+    "categories": {
+      "uncontested": { "totalMin": 1500, "totalMax": 5000, "avgMonths": 6 },
+      "contested": { "totalMin": 15000, "totalMax": 50000, "avgMonths": 12 },
+      "highConflict": { "totalMin": 50000, "totalMax": 200000, "avgMonths": 24 }
+    },
+    "notes": "California is a community property state. Filing fees vary by county."
+  },
+  "texas": {
+    "name": "Texas",
+    "slug": "texas",
+    "filingFee": { "min": 250, "max": 350 },
+    "attorneyHourly": { "min": 200, "max": 450 },
+    "mediationPerSession": { "min": 150, "max": 400 },
+    "processServer": { "min": 50, "max": 100 },
+    "categories": {
+      "uncontested": { "totalMin": 1000, "totalMax": 4000, "avgMonths": 3 },
+      "contested": { "totalMin": 10000, "totalMax": 35000, "avgMonths": 10 },
+      "highConflict": { "totalMin": 30000, "totalMax": 150000, "avgMonths": 18 }
+    },
+    "notes": "Texas is a community property state with a 60-day waiting period."
+  },
+  "new-york": {
+    "name": "New York",
+    "slug": "new-york",
+    "filingFee": { "min": 335, "max": 335 },
+    "attorneyHourly": { "min": 300, "max": 700 },
+    "mediationPerSession": { "min": 250, "max": 600 },
+    "processServer": { "min": 45, "max": 120 },
+    "categories": {
+      "uncontested": { "totalMin": 2000, "totalMax": 6000, "avgMonths": 4 },
+      "contested": { "totalMin": 17000, "totalMax": 75000, "avgMonths": 14 },
+      "highConflict": { "totalMin": 75000, "totalMax": 300000, "avgMonths": 30 }
+    },
+    "notes": "New York requires grounds for divorce including irretrievable breakdown."
+  },
+  "florida": {
+    "name": "Florida",
+    "slug": "florida",
+    "filingFee": { "min": 400, "max": 410 },
+    "attorneyHourly": { "min": 250, "max": 500 },
+    "mediationPerSession": { "min": 150, "max": 350 },
+    "processServer": { "min": 40, "max": 100 },
+    "categories": {
+      "uncontested": { "totalMin": 1200, "totalMax": 4500, "avgMonths": 3 },
+      "contested": { "totalMin": 12000, "totalMax": 40000, "avgMonths": 10 },
+      "highConflict": { "totalMin": 40000, "totalMax": 175000, "avgMonths": 20 }
+    },
+    "notes": "Florida is an equitable distribution state. Mandatory disclosure requirements apply."
+  },
+  "illinois": {
+    "name": "Illinois",
+    "slug": "illinois",
+    "filingFee": { "min": 289, "max": 334 },
+    "attorneyHourly": { "min": 250, "max": 500 },
+    "mediationPerSession": { "min": 200, "max": 450 },
+    "processServer": { "min": 30, "max": 80 },
+    "categories": {
+      "uncontested": { "totalMin": 1500, "totalMax": 5000, "avgMonths": 3 },
+      "contested": { "totalMin": 12000, "totalMax": 45000, "avgMonths": 12 },
+      "highConflict": { "totalMin": 45000, "totalMax": 200000, "avgMonths": 24 }
+    },
+    "notes": "Illinois requires a 6-month separation period (can be waived by agreement)."
+  },
+  "pennsylvania": {
+    "name": "Pennsylvania",
+    "slug": "pennsylvania",
+    "filingFee": { "min": 250, "max": 350 },
+    "attorneyHourly": { "min": 200, "max": 450 },
+    "mediationPerSession": { "min": 150, "max": 400 },
+    "processServer": { "min": 30, "max": 100 },
+    "categories": {
+      "uncontested": { "totalMin": 1000, "totalMax": 4000, "avgMonths": 4 },
+      "contested": { "totalMin": 10000, "totalMax": 35000, "avgMonths": 12 },
+      "highConflict": { "totalMin": 35000, "totalMax": 150000, "avgMonths": 24 }
+    },
+    "notes": "Pennsylvania has both fault and no-fault divorce options."
+  },
+  "ohio": {
+    "name": "Ohio",
+    "slug": "ohio",
+    "filingFee": { "min": 200, "max": 300 },
+    "attorneyHourly": { "min": 175, "max": 400 },
+    "mediationPerSession": { "min": 125, "max": 350 },
+    "processServer": { "min": 25, "max": 75 },
+    "categories": {
+      "uncontested": { "totalMin": 800, "totalMax": 3500, "avgMonths": 3 },
+      "contested": { "totalMin": 8000, "totalMax": 30000, "avgMonths": 10 },
+      "highConflict": { "totalMin": 30000, "totalMax": 130000, "avgMonths": 18 }
+    },
+    "notes": "Ohio offers both divorce and dissolution (mutual agreement) options."
+  },
+  "georgia": {
+    "name": "Georgia",
+    "slug": "georgia",
+    "filingFee": { "min": 200, "max": 250 },
+    "attorneyHourly": { "min": 200, "max": 400 },
+    "mediationPerSession": { "min": 125, "max": 300 },
+    "processServer": { "min": 30, "max": 80 },
+    "categories": {
+      "uncontested": { "totalMin": 800, "totalMax": 3000, "avgMonths": 2 },
+      "contested": { "totalMin": 8000, "totalMax": 30000, "avgMonths": 8 },
+      "highConflict": { "totalMin": 25000, "totalMax": 125000, "avgMonths": 16 }
+    },
+    "notes": "Georgia has a 30-day waiting period after filing."
+  },
+  "washington": {
+    "name": "Washington",
+    "slug": "washington",
+    "filingFee": { "min": 290, "max": 350 },
+    "attorneyHourly": { "min": 250, "max": 500 },
+    "mediationPerSession": { "min": 200, "max": 450 },
+    "processServer": { "min": 40, "max": 100 },
+    "categories": {
+      "uncontested": { "totalMin": 1200, "totalMax": 4500, "avgMonths": 3 },
+      "contested": { "totalMin": 12000, "totalMax": 40000, "avgMonths": 10 },
+      "highConflict": { "totalMin": 40000, "totalMax": 175000, "avgMonths": 20 }
+    },
+    "notes": "Washington is a community property state with a 90-day waiting period."
+  },
+  "colorado": {
+    "name": "Colorado",
+    "slug": "colorado",
+    "filingFee": { "min": 195, "max": 230 },
+    "attorneyHourly": { "min": 200, "max": 450 },
+    "mediationPerSession": { "min": 150, "max": 400 },
+    "processServer": { "min": 30, "max": 75 },
+    "categories": {
+      "uncontested": { "totalMin": 900, "totalMax": 3500, "avgMonths": 3 },
+      "contested": { "totalMin": 9000, "totalMax": 35000, "avgMonths": 10 },
+      "highConflict": { "totalMin": 30000, "totalMax": 140000, "avgMonths": 18 }
+    },
+    "notes": "Colorado has a 91-day waiting period and is an equitable distribution state."
+  }
+}
